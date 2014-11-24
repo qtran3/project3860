@@ -1,0 +1,37 @@
+package math.warrior.view;
+
+import javax.swing.*;
+
+public class NewGameForm extends JFrame{
+	private MainMenu mainMenu;
+	private JTextField usernameField;
+	private JPasswordField passwordField, confirmPasswordField;
+	private JButton createButton, cancelButton;
+	public void activate(){
+		usernameField.setText("");
+		passwordField.setText("");
+		confirmPasswordField.setText("");
+		createButton.setEnabled(true);
+		cancelButton.setEnabled(true);
+		show();
+	}
+	public NewGameForm(MainMenu theMenu) {
+		super("[MathWarrior] Create new game data");
+		this.mainMenu=theMenu;
+		
+		this.setSize(600, 600);
+		this.setLocation(300, 100);
+		this.setLayout(null);
+		
+		usernameField = new JTextField();
+		usernameField.setSize(200, 60);
+		usernameField.setLocation(100, 30);
+		
+		passwordField = new JPasswordField();
+		passwordField.setSize(200, 60);
+		passwordField.setLocation(100, 100);
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package math.warrior.view;
+
+public class NewGameForm {
+
+	public NewGameForm() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

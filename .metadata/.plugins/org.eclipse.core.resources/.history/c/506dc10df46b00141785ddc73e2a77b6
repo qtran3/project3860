@@ -1,0 +1,12 @@
+package math.warrior.view;
+
+import javax.swing.*;
+
+public class NewGameForm extends JFrame{
+	private MainMenu mainMenu;
+	public NewGameForm(MainMenu theMenu) {
+		this.mainMenu=theMenu;
+		
+	}
+
+}

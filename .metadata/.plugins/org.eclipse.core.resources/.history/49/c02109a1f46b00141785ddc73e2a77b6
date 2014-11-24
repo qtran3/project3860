@@ -1,0 +1,15 @@
+package math.warrior.view;
+
+import javax.swing.*;
+
+public class NewGameForm extends JFrame{
+	private MainMenu mainMenu;
+	JTextField usernameField, passwordField,confirmPasswordField;
+	public NewGameForm(MainMenu theMenu) {
+		super("[MathWarrior] Create new game data");
+		this.mainMenu=theMenu;
+		usernameField = new JTextField();
+		
+	}
+
+}

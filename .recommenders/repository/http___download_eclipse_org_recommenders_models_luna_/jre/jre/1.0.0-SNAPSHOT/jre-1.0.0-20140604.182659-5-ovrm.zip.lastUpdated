@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Nov 14 07:17:57 EST 2014
+@default-models-http\://download.eclipse.org/recommenders/models/luna/.lastUpdated=1415967477166
+http\://download.eclipse.org/recommenders/models/luna/.error=Could not transfer artifact jre\:jre\:zip\:ovrm\:1.0.0-20140604.182659-5 from/to models (http\://download.eclipse.org/recommenders/models/luna/)\: Address family not supported by protocol family\: connect

@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package math.warrior.view;
+
+import javax.swing.*;
+/**
+ * @author QUAN TRAN
+ *
+ */
+public class MainMenu extends JFrame
+{
+
+	/**
+	 * combobox  sele
+	 */
+	private JButton exitButton, 	newGameButton, 	loadGameButton,	helpButton;
+	public MainMenu(){
+		super();
+		setTitle("[Matn Warrior] Main Menu  ~ Welcome ~");
+		setSize(700, 700);
+		setLocation(400, 200);
+		exitButton=new JButton("Exit");
+		newGameButton=new JButton("New Game Data")
+		loadGameButton=new JButton("Load an old Game Data")
+		
+	}
+}
